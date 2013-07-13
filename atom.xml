@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Tea without sugar]]></title>
   <link href="http://aroragagan.github.io/atom.xml" rel="self"/>
   <link href="http://aroragagan.github.io/"/>
-  <updated>2013-07-13T18:16:37+10:00</updated>
+  <updated>2013-07-13T19:32:06+10:00</updated>
   <id>http://aroragagan.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Gagandeep]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[TestBlog]]></title>
+    <link href="http://aroragagan.github.io/blog/2013/07/13/testblog/"/>
+    <updated>2013-07-13T19:20:00+10:00</updated>
+    <id>http://aroragagan.github.io/blog/2013/07/13/testblog</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
