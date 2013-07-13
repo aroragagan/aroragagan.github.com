@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Tea without sugar]]></title>
-  <link href="http://aroragagan.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Home | Tea without sugar]]></title>
+  <link href="http://aroragagan.github.io/blog/categories/home/atom.xml" rel="self"/>
   <link href="http://aroragagan.github.io/"/>
   <updated>2013-07-13T20:18:28+10:00</updated>
   <id>http://aroragagan.github.io/</id>
