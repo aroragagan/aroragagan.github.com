@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Octopress Setup"
+title: "Octopress Installation"
 date: 2013-07-13 19:20
 comments: true
 categories: 
 ---
-# Octopress Installation
 [Octopress][octopress] is a blogging framework built on top of [Jekyll][jekyll] to let you generate and deploy your blog in a few minutes. Here are the steps to follow on Fedora 19:
 
 {% codeblock Octopress installation lang:bash %} 
