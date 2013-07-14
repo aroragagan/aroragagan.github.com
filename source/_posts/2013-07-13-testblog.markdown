@@ -1,0 +1,53 @@
+---
+layout: post
+title: "Octopress Setup"
+date: 2013-07-13 19:20
+comments: true
+categories: 
+---
+# Octopress Installation
+[Octopress][octopress] is a blogging framework built on top of [Jekyll][jekyll] to let you generate and deploy your blog in a few minutes. Here are the steps to follow on Fedora 19:
+
+{% codeblock Octopress installation lang:bash %} 
+$ yum install git
+$ curl -L https://get.rvm.io | bash
+$ . "$HOME/.rvm/scripts/rvm"
+$ rvm install 1.9.3
+$ rvm rubygems latest
+$ rvm use 1.9.3 --default
+$ rvm reload
+$ git clone git://github.com/imathis/octopress.git myblog
+$ cd myblog
+$ ruby -v #should be 1.9.3 otherwise octopress would not install
+$ gem install bundler
+$ bundle install
+$ rake install #install the default octopress theme
+{% endcodeblock %}
+
+# Deploying Octopress to [github] [github]
+gitgub allows you to publish pages for free. There are two types of pages you can publish: 
+1. User & Organisation pages
+2. Project pages
+
+## Deploying  to User & organisation pages
+
+To deploy these you will have to create a repository on github with your username: `username.github.io` or organisation name: `organisation.github.io`. Once you have done this you can tell octopress to setup and deploy the pages to your repository as given below:
+
+{% codeblock Deploying to User/Organisation pages lang:bash %}
+$ rake setup_github_pages
+# provide your github pages repository url
+# this will setup github pages repository as the default origin remote
+# change the active branch from master to source
+# setup the blog url according to repository
+# setup a master branch in _deploy directory for deployment
+
+$ rake generate 
+$ rake deploy  
+{% endcodeblock %}
+
+This will basically generate your blog and copy the generated files to _deploy directory. The generated files will be added to git, commited and pushed to the remote master branch.
+
+[github]: http://github.com
+[jekyll]: http://jekyllrb.com/
+[octopress]: http://octopress.org/
+
