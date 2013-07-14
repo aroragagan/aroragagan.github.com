@@ -47,6 +47,12 @@ $ rake deploy
 
 This will basically generate your blog and copy the generated files to _deploy directory. The generated files will be added to git, commited and pushed to the remote master branch.
 
+Commit the source of your blog:
+{% codeblock %}
+$ git add .
+$ git commit -m "message"
+{% endcodeblock %}
+
 [github]: http://github.com
 [jekyll]: http://jekyllrb.com/
 [octopress]: http://octopress.org/
