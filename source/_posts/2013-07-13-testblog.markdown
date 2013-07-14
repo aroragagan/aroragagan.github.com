@@ -54,6 +54,8 @@ $ git commit -m "message"
 $ git push origin source
 {% endcodeblock %}
 
+and you are done test your blog at  http://username.github.io
+
 [github]: http://github.com
 [jekyll]: http://jekyllrb.com/
 [octopress]: http://octopress.org/
