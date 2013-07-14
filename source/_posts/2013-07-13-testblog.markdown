@@ -51,6 +51,7 @@ Commit the source of your blog:
 {% codeblock %}
 $ git add .
 $ git commit -m "message"
+$ git push origin source
 {% endcodeblock %}
 
 [github]: http://github.com
