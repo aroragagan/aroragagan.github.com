@@ -4,7 +4,7 @@
   <title><![CDATA[Tea without sugar]]></title>
   <link href="http://aroragagan.github.io/atom.xml" rel="self"/>
   <link href="http://aroragagan.github.io/"/>
-  <updated>2013-07-14T15:27:05+10:00</updated>
+  <updated>2013-07-14T15:29:33+10:00</updated>
   <id>http://aroragagan.github.io/</id>
   <author>
     <name><![CDATA[Gagandeep]]></name>
@@ -92,8 +92,10 @@
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
+<span class='line-number'>3</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ git add .
-</span><span class='line'>$ git commit -m "message"</span></code></pre></td></tr></table></div></figure>
+</span><span class='line'>$ git commit -m "message"
+</span><span class='line'>$ git push origin source</span></code></pre></td></tr></table></div></figure>
 
 
 
