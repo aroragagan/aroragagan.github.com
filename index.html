@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Gagan</title>
+  <title>index - Gagan</title>
   <meta name="author" content="Gagandeep">
 
   
-  <meta name="description" content="Octopress is a blogging framework built on top of Jekyll to let you generate and deploy your blog in a few minutes. Here are the steps to follow on &hellip;">
+  <meta name="description" content="Index Jul 14th, 2013 Jul 14th, 2013 Tweet Recent Posts Octopress Installation GitHub Repos Status updating... @aroragagan on GitHub $(document). &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -56,26 +56,39 @@
 </form>
   
 <ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
+  <li><a href="/blog">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
 </ul>
 
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article role="article">
   
-  
-  
-    <article>
-      
   <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/07/13/testblog/">Octopress Installation</a></h1>
-    
-    
+    <h1 class="entry-title">Index</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-14T16:50:00+10:00" pubdate data-updated="true">Jul 14<span>th</span>, 2013</time></p>
+  </header>
+  
+  
+  
+    <footer>
       <p class="meta">
         
+        
 
 
 
@@ -87,105 +100,25 @@
   
 
 
-<time datetime="2013-07-13T19:20:00+10:00" pubdate data-updated="true">Jul 13<span>th</span>, 2013</time>
+<time datetime="2013-07-14T16:50:00+10:00" pubdate data-updated="true">Jul 14<span>th</span>, 2013</time>
         
       </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://octopress.org/">Octopress</a> is a blogging framework built on top of <a href="http://jekyllrb.com/">Jekyll</a> to let you generate and deploy your blog in a few minutes. Here are the steps to follow on Fedora 19:</p>
-
-<figure class='code'><figcaption><span>Octopress installation </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>
-</span><span class='line'><span class="nv">$ </span>yum install git
-</span><span class='line'><span class="nv">$ </span>curl -L https://get.rvm.io | bash
-</span><span class='line'><span class="nv">$ </span>. <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span>
-</span><span class='line'><span class="nv">$ </span>rvm install 1.9.3
-</span><span class='line'><span class="nv">$ </span>rvm rubygems latest
-</span><span class='line'><span class="nv">$ </span>rvm use 1.9.3 --default
-</span><span class='line'><span class="nv">$ </span>rvm reload
-</span><span class='line'><span class="nv">$ </span>git clone git://github.com/imathis/octopress.git myblog
-</span><span class='line'><span class="nv">$ </span><span class="nb">cd </span>myblog
-</span><span class='line'><span class="nv">$ </span>ruby -v <span class="c">#should be 1.9.3 otherwise octopress would not install</span>
-</span><span class='line'><span class="nv">$ </span>gem install bundler
-</span><span class='line'><span class="nv">$ </span>bundle install
-</span><span class='line'><span class="nv">$ </span>rake install <span class="c">#install the default octopress theme</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h1>Deploying Octopress to <a href="http://github.com">github</a></h1>
-
-<p>gitgub allows you to publish pages for free. There are two types of pages you can publish:
-1. User &amp; Organisation pages
-2. Project pages</p>
-
-<h2>Deploying  to User &amp; organisation pages</h2>
-
-<p>To deploy these you will have to create a repository on github with your username: <code>username.github.io</code> or organisation name: <code>organisation.github.io</code>. Once you have done this you can tell octopress to setup and deploy the pages to your repository as given below:</p>
-
-<figure class='code'><figcaption><span>Deploying to User/Organisation pages </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rake setup_github_pages
-</span><span class='line'><span class="c"># provide your github pages repository url</span>
-</span><span class='line'><span class="c"># this will setup github pages repository as the default origin remote</span>
-</span><span class='line'><span class="c"># change the active branch from master to source</span>
-</span><span class='line'><span class="c"># setup the blog url according to repository</span>
-</span><span class='line'><span class="c"># setup a master branch in _deploy directory for deployment</span>
-</span><span class='line'>
-</span><span class='line'><span class="nv">$ </span>rake generate
-</span><span class='line'><span class="nv">$ </span>rake deploy
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>This will basically generate your blog and copy the generated files to _deploy directory. The generated files will be added to git, commited and pushed to the remote master branch.</p>
-
-<p>Commit the source of your blog:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ git add .
-</span><span class='line'>$ git commit -m "message"
-</span><span class='line'>$ git push origin source</span></code></pre></td></tr></table></div></figure>
-
-
-<p>and you are done test your blog at  <a href="http://username.github.io">http://username.github.io</a></p>
+      
+        <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://aroragagan.github.io/index.html" data-via="" data-counturl="http://aroragagan.github.io/index.html" >Tweet</a>
+  
+  
+  
 </div>
-  
-  
 
-
-    </article>
+      
+    </footer>
   
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+</article>
+
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -202,7 +135,7 @@
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/aroragagan">@aroragagan</a> on GitHub
@@ -234,6 +167,7 @@
 
   
 </aside>
+
 
     </div>
   </div>
