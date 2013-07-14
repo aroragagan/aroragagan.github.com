@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | Tea without sugar]]></title>
   <link href="http://aroragagan.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://aroragagan.github.io/"/>
-  <updated>2013-07-14T15:39:23+10:00</updated>
+  <updated>2013-07-14T16:10:48+10:00</updated>
   <id>http://aroragagan.github.io/</id>
   <author>
     <name><![CDATA[Gagandeep]]></name>
@@ -99,6 +99,8 @@
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ git add .
 </span><span class='line'>$ git commit -m &ldquo;message&rdquo;
 </span><span class='line'>$ git push origin source</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>and you are done test your blog at  <a href="http://username.github.io">http://username.github.io</a></p>
 ]]></content>
   </entry>
   
