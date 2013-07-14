@@ -4,7 +4,7 @@
   <title><![CDATA[Tea without sugar]]></title>
   <link href="http://aroragagan.github.io/atom.xml" rel="self"/>
   <link href="http://aroragagan.github.io/"/>
-  <updated>2013-07-14T15:29:33+10:00</updated>
+  <updated>2013-07-14T15:31:08+10:00</updated>
   <id>http://aroragagan.github.io/</id>
   <author>
     <name><![CDATA[Gagandeep]]></name>
@@ -14,13 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Octopress Setup]]></title>
+    <title type="html"><![CDATA[Octopress Installation]]></title>
     <link href="http://aroragagan.github.io/blog/2013/07/13/testblog/"/>
     <updated>2013-07-13T19:20:00+10:00</updated>
     <id>http://aroragagan.github.io/blog/2013/07/13/testblog</id>
-    <content type="html"><![CDATA[<h1>Octopress Installation</h1>
-
-<p><a href="http://octopress.org/">Octopress</a> is a blogging framework built on top of <a href="http://jekyllrb.com/">Jekyll</a> to let you generate and deploy your blog in a few minutes. Here are the steps to follow on Fedora 19:</p>
+    <content type="html"><![CDATA[<p><a href="http://octopress.org/">Octopress</a> is a blogging framework built on top of <a href="http://jekyllrb.com/">Jekyll</a> to let you generate and deploy your blog in a few minutes. Here are the steps to follow on Fedora 19:</p>
 
 <figure class='code'><figcaption><span>Octopress installation </span></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
